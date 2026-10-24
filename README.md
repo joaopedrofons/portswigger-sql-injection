@@ -13,6 +13,7 @@ O projeto foi criado para demonstrar a capacidade de criar ferramentas customiza
 ## 🧠 Aprendizados e Desafios Técnicos
 
 Durante o desenvolvimento, foram superados desafios reais de infraestrutura e lógica de banco de dados:
+
 *   **Bypass de Otimização de Query:** Entendimento de como o PostgreSQL otimiza queries, evitando falsos positivos em injeções baseadas em tempo.
 *   **Manipulação de Tipos de Dados:** Compreensão da diferença de tipos (`void`, `int`, `text`) e como forçar erros de conversão para vazar dados.
 *   **Parsing de Erros:** Uso da biblioteca `re` (Regex) do Python para filtrar o "lixo" da tela de erro e extrair apenas a informação sensível.
